@@ -59,7 +59,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'myBlog',
         'USER': 'root',
-        'PASSWORD': 'issamfidaroudi1919@',
+        'PASSWORD': 'yourpassword',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
