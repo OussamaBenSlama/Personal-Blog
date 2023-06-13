@@ -1,0 +1,19 @@
+.Postes {
+    text-align: center;
+    padding-top: 2rem;
+    border-bottom: 1px solid grey;
+}
+.Postes h1 {
+    font-size: 2rem;
+}
+
+.listPostes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0rem 2rem 0rem;
+    justify-content: center;
+}
+.listPostes > div {
+    margin-left: 1.5rem;
+}
+

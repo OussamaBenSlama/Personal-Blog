@@ -1,0 +1,41 @@
+.Header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    padding: 4rem;
+    background-color: rgb(216, 214, 214);
+    z-index: -1;
+}
+
+.Header img {
+    max-width: 17rem;
+    max-height: 17rem;
+}
+.Header .header-content {
+    line-height: 4rem;
+    
+}
+.Header .header-content p {
+    color: rgb(83, 83, 83);
+}
+.Header .header-content .btn {
+    /* margin-top: 3rem; */
+    margin-left: 3rem;
+    padding: 2rem;
+}
+.Header .header-content .btn button {
+    margin-right: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border: 1px solid rgb(83, 177, 240);
+    border-radius: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+}
+#sub {
+    background-color: rgb(83, 177, 240);
+    color: white;
+}
